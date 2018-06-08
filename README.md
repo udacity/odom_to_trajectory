@@ -15,18 +15,18 @@ The package contains two nodes
       * Publisher: "/ekfpath"
       
 ### Steps to launch the nodes
-#### Step1: Install the package:
+#### Step1: Install the package
 ```sh
 $ cd /home/workspace/catkin_ws/src
 $ git clone https://github.com/udacity/odom_to_trajectory
 ```
-#### Step2: Build the package:
+#### Step2: Build the package
 ```sh
 $ cd /home/workspace/catkin_ws
 $ catkin_make
 $ source devel/setup.bash
 ```
-#### Step3: Launch the nodes:
+#### Step3: Launch the nodes
 ```sh
 $ roslaunch odom_to_trajectory create_trajectory.launch
 ```

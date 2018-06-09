@@ -13,6 +13,7 @@ The package contains two nodes
       * Script File: path_ekf_plotter.py
       * Subscriber: "/robot_pose_ekf/odom_combined"
       * Publisher: "/ekfpath"
+
 ![alt text](Images/Output.png)
       
 ### Steps to launch the nodes
